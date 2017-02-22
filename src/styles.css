@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background: #FFF;
+}
+
+
+header h1 {
+  color: #FFF;
+  font-size: 42px;
+  line-height: calc(66vh);
+  text-transform: uppercase;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px #888;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}

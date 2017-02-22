@@ -1,0 +1,15 @@
+<h1>
+  {{title}}
+</h1>
+
+<pre> {{ registerForm.value | json }} </pre>
+
+<form [formGroup]="registerForm">
+  <label>First Name:</label>
+  <input formControlName="fname">
+  <p *ngIf="registerForm.controls.fname.errors">This field is required!</p>
+
+  <label>Last Name:</label>
+  <input formControlName="lname">
+  <p *ngIf="registerForm.controls.lname.errors">This field is required!</p>
+</form>
